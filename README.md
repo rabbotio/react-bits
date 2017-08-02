@@ -61,3 +61,21 @@ A compilation of React Patterns, techniques, tips and tricks.
   - [Pure render checks](./gotchas/01.pure-render-checks.md)
   - [Synthetic Events](./gotchas/02.synthetic-events.md)
 - [Related Links](./READINGS.md)
+
+# How to develop
+## Setup
+```shell
+git clone git@github.com:rabbotio/react-bits.git
+git checkout th_TH
+cd react-bits
+npm i -g gitbook-cli
+gitbook install
+```
+## Develop
+```
+npm run docs
+```
+## Preview
+```
+open http://localhost:4000
+```
