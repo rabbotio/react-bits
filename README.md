@@ -68,8 +68,10 @@ A compilation of React Patterns, techniques, tips and tricks.
 git clone git@github.com:rabbotio/react-bits.git
 git checkout th_TH
 cd react-bits
+npm i
 npm i -g gitbook-cli
 gitbook install
+code .
 ```
 ## Develop
 ```
